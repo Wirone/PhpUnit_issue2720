@@ -1,0 +1,30 @@
+{
+    "name": "phpunit/issue2720",
+    "license": "proprietary",
+    "type": "project",
+    "homepage": "https://github.com/sebastianbergmann/phpunit/issues/2720",
+    "keywords": ["php", "phpunit"],
+    "authors": [
+        {
+            "name": "Grzegorz Korba",
+            "email": "wirone@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/event-dispatcher": "~2.8|~3.0",
+        "symfony/http-foundation": "~2.8|~3.0",
+        "symfony/http-kernel": "~2.8|~3.0",
+        "symfony/security": "~2.8|~3.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "~3.0",
+        "phpunit/phpunit": "~6.0"
+    }
+}
